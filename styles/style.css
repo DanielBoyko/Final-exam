@@ -1,0 +1,104 @@
+@import url(./reset.css);
+
+
+*, *::before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 1.2em;
+}
+/* NAVIGATION */
+nav {
+    background-color: rgb(146, 102, 102);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+ 
+nav a {
+display: flex;
+height: 40px;
+align-items: center;
+padding: 1em;
+color: #222f3e;
+font-weight: bold;
+text-decoration: none;
+font-size: 1.4em;
+transition: 0.25s;
+}
+
+nav a:hover {
+    background-color: #ff9ff3;
+}
+/* HEADER */
+header {
+    background-color: #ffa048;
+    color: rgb(131, 35, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 140px;
+    margin-bottom: 2em;
+}
+header h1 {
+    font-size: 3.4em;
+}
+header h2 {
+    font-size: 2.1em;
+}
+/* MAIN CONTENT */
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+/* MAIN */
+main {
+width: 65%;
+}
+
+/* ASIDE */
+aside{
+width: 30%;
+background-color: #b31b1b;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+aside h2 {
+    color: rgb(202, 163, 44);
+    font-size: 2.1em;
+    padding: 1em;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+}
+/* FOOTER */
+footer {
+    background-color: #54a0ff;
+    color: #fff;
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
